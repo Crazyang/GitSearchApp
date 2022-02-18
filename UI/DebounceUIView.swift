@@ -46,6 +46,7 @@ struct DebounceUIView: View {
                 })
 //            Text("Result:\n \(retResponseString)")
 //                .foregroundColor(.red)
+            
             List(items) { mItem in
                 Text(mItem.full_name)
             }
